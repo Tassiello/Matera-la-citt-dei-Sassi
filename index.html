@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+
+    <meta charset="utf-8" />
+    <title>Matera, la città dei Sassi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <style>
+
+        .title {
+            text-align: center;
+            color: #F4BF1D;
+            margin-top:6px;
+        }
+
+        hr {
+            color: #F4BF1D;
+            border: solid 1px #F4BF1D;
+        }
+
+        #tabella{
+            text-align:center;
+            width:50%;
+        }
+
+        #MioCarosello {
+            width: 50%;
+        }
+
+        #citta h2{
+            margin-top:8%;
+        }
+
+/*        #modale_news{
+            text-align:center;
+        }*/
+    </style>
+
+
+</head>
+<body>
+
+    <!--NavBar-->
+    <nav id="navigazione" class="navbar sticky-top navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <img src="img/logomini2.png" /> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabella">Informazioni Tecniche</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#citta">La Città</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <!--Qui si punta a sé stessi, quindi qui si lascia il #-->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            La Festa della Bruna
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="#">La Processione dei Pastori</a>
+                            <a class="dropdown-item" href="#">La Sfilata dei Cavalieri</a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <a class="dropdown-item" href="#">Lo "Strazzo" del Carro</a>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <h2 class="title">Matera, la Città dei Sassi</h2>
+    <hr />
+
+
+    <!--Carosello-->
+    <div class="container mt-3">
+
+        <div id="MioCarosello" class="carousel slide mx-auto" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" class="d-block w-100" alt="Tramonto incorniciato da una grotta" />
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/2.jpg" class="d-block w-100" alt="Panorama con la Gravina" />
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/3.jpg" class="d-block w-100" alt="Case dei Sassi" />
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/4.jpg" class="d-block w-100" alt="Il Castello del Conte Tramontano" />
+                </div>
+
+            </div>
+
+            <!--Pulsanti Next Prev-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#MioCarosello" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#MioCarosello" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+    </div>
+
+    <!--Tabella -->
+    <div class="container mt-5" id="tabella">
+
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <th scope="row">Regione</th>
+                    <td>Basilicata</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Superficie</th>
+                    <td>329,09 km²</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Abitanti</th>
+                    <td>59 620</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="container mt-50 my-4 mx-auto text-center" id="citta">
+        <h2>La Città di Matera</h2>
+
+        <p class="mt-5">
+            Benvenuti a Matera, una delle città più affascinanti e suggestive d'Italia, con una storia che affonda le radici fin dall'antichità. Situata nella regione della Basilicata, Matera è famosa per i suoi antichi rioni scavati nella roccia, noti come i Sassi di Matera, che costituiscono uno dei più antichi insediamenti umani continuativi al mondo.
+
+            La storia di Matera è lunga e affascinante. Abitata sin dal Paleolitico, la città ha conosciuto diverse civiltà nel corso dei millenni, tra cui i Romani, i Bizantini, i Longobardi e i Saraceni. Tuttavia, è durante il periodo medievale che Matera raggiunse il suo apice di splendore, diventando un importante centro culturale, religioso ed economico.
+
+            Durante il Rinascimento, Matera conobbe un periodo di declino, ma mantenne comunque la sua importanza strategica e culturale. Nel corso dei secoli successivi, la città attraversò periodi di povertà e abbandono, ma la sua straordinaria architettura rupestre rimase sorprendentemente intatta, preservando la memoria del suo passato millenario.
+
+            Negli ultimi decenni, Matera ha vissuto un vero e proprio rinascimento, trasformandosi da città dimenticata a gemma culturale e turistica. Nel 2019 è stata proclamata Capitale Europea della Cultura, un riconoscimento meritato per la sua ricca storia e il suo patrimonio unico al mondo.
+
+            Oggi, i visitatori possono esplorare i suggestivi vicoli dei Sassi, ammirare le chiese rupestri e immergersi nell'atmosfera senza tempo di questa città millenaria. Matera è una destinazione che incanta e sorprende, offrendo un viaggio nel tempo attraverso i secoli di storia e cultura che ha saputo conservare gelosamente.
+
+            Venite a scoprire Matera e lasciatevi conquistare dal suo fascino senza tempo e dalla sua straordinaria bellezza storica.
+        </p>
+    </div>
+
+
+    <!--Modal per news-->
+    <div class="container mb-5 mt-5  text-center" id="modale_news">
+
+        <button type="button" class="btn bg-warning" data-bs-toggle="modal" data-bs-target="#MioModale">
+            Vuoi Saperne di più?
+        </button>
+
+        <div class="modal fade" id="MioModale" tabindex="-1" aria-labelledby="modaleEsempio" aria-hidden="true">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modaleEsempio">Vuoi saperne di più?</h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                        <form>
+                            <div class="mt-2 text-start">
+                                <p>Inserici la tua <u>email</u> per iscriverti alla nostra Newsletter!</p> <br />
+                            </div>
+
+
+                            <div class="mb-2  text-start">
+
+                                <label for="Email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Inserisci la tua mail"
+
+                            </div>
+
+                            <button type="submit" class="btn bg-warning mt-3">Resta aggiornato!</button>
+
+                        </form>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Chiudi</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
